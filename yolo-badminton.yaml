@@ -1,0 +1,9 @@
+path: badminton
+train: images/train
+val: images/val
+test:
+
+names:
+  0: Chou
+  1: Antonsen
+  2: shuttlecock
