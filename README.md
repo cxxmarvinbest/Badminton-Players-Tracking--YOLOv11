@@ -22,3 +22,4 @@ git clone https://github.com/ultralytics/ultralytics.git
 4.Use `extract.ipynb` to split `test.mp4` into individual images based on a specified number of frames  
 5.Use `Labelimg` to annotate the image, dividing it into `player` and `center`  
 6.Split the `images` and `Annotation` into `train` and `val`, and place them into `datasets`.
+7.
