@@ -1,0 +1,7 @@
+path: ../datasets
+train: images/train
+val: images/val
+
+names:
+  0: player
+  1: center
