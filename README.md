@@ -16,4 +16,4 @@ The project uses Ultralytics' YOLOv11 to track the positions of the athletes in 
 git clone https://github.com/cxxmarvinbest/Badminton-Players-Tracking--YOLOv11.git  
 git clone https://github.com/ultralytics/ultralytics.git
 ## Usage
-1.The project
+1.Install Miniconda on the C drive, and make sure the installation directory does not contain any Chinese characters(https://mirroes.tuna.tsinghua.edu.cn/anaconda/miniconda/)
