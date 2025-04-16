@@ -16,4 +16,9 @@ The project uses Ultralytics' YOLOv11 to track the positions of the athletes in 
 git clone https://github.com/cxxmarvinbest/Badminton-Players-Tracking--YOLOv11.git  
 git clone https://github.com/ultralytics/ultralytics.git
 ## Usage
-1.Install Miniconda on the C drive, and make sure the installation directory does not contain any Chinese characters(https://mirroes.tuna.tsinghua.edu.cn/anaconda/miniconda/)
+1.Install Miniconda on the C drive, and make sure the installation directory does not contain any Chinese characters(https://mirroes.tuna.tsinghua.edu.cn/anaconda/miniconda/)  
+2.Create a virtual environment(conda create -n yolov11 python=3.8)  
+3.Configure domestic mirrors(https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)  
+4.Use `extract.ipynb` to split `test.mp4` into individual images based on a specified number of frames  
+5.Use `Labelimg` to annotate the image, dividing it into `player` and `center`  
+6.Split the `images` and `Annotation` into `train` and `val`, and place them into `datasets`.
