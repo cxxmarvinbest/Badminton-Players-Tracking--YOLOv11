@@ -26,6 +26,7 @@ git clone https://github.com/ultralytics/ultralytics.git
 8.Train model:`train_model.py`  
 9.Generative model:`models/best.pt`  
 10.Convert the athlete's bounding box center to a point:`convert_center_boxes.py`  
-11.Verify the effect of the transformation:`convert_to_circle_validation.py`  
-12.Run the tracking program:`utils/tracker.py`  
-13.Run the main program:`run_tracker.py`
+11.Map the actual badminton court size to the video:`utils/geometry.py`  
+12.Verify the effect of the transformation:`convert_to_circle_validation.py`  
+13.Run the tracking program:`utils/tracker.py`  
+14.Run the main program:`run_tracker.py`
