@@ -21,5 +21,8 @@ git clone https://github.com/ultralytics/ultralytics.git
 3.Configure domestic mirrors(https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)  
 4.Use `extract.ipynb` to split `test.mp4` into individual images based on a specified number of frames  
 5.Use `Labelimg` to annotate the image, dividing it into `player` and `center`  
-6.Split the `images` and `Annotation` into `train` and `val`, and place them into `datasets`.
-7.
+6.Split the `images` and `Annotation` into `train` and `val`, and place them into `datasets`  
+7.Configure and specify the paths of the dataset and category information:`datasets/data.yaml`  
+8.Train model:`train_model.py`  
+
+
